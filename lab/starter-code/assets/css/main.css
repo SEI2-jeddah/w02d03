@@ -1,0 +1,13 @@
+.alert{
+ /* display: none; */
+}
+
+.alert_error{
+ background-color: crimson;
+ border: 1px solid crimson;
+}
+
+.superhero__list{
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr;
+}
