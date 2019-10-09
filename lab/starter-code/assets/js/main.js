@@ -264,11 +264,12 @@ let superHeroes = (function (){
        
        let item = repository.findIndex(function(x){
         return x.id == id
-       })
+       })     
        repository.splice(item,1)
        
-       e.target.parentNode.remove()
-
+       console.log(id)
+       item > -1 ? remove(id) : " "
+      
       })
 
       $showButton.addEventListener('click', function(e){
@@ -279,6 +280,9 @@ let superHeroes = (function (){
     
   }
 
+  function remove(id){
+   document.querySelector(".grid__item[data-id='"+id+"']").remove()
+  }
 
   function showDetails(id){
    $modalContent = document.querySelector('.modal-content')   
