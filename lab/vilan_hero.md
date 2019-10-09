@@ -626,7 +626,11 @@ let repository = [
 
 1. Copy and remove the last three object in the array into a separate file. i.e. `Hell Boy, Kid Flash, Kraven the hunter` shouldn't be in the repository.
 
-1. Change the 
+1. Replace your `repository` variable with the one above.
+1. Lets get our hands dirty.
+1. On page load, display all the superHeros in the array in a grid, feel free to use `grid` or `flexbox` or `float`.
+1. Add a `show` and `delete` button to each superhero grid element.
+
 
 
 
